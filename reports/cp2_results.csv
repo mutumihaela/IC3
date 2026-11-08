@@ -1,0 +1,6 @@
+,RMSE validare (cicluri),RMSE test (cicluri),scor NASA test
+RUL mediu constant,41.80 ± 0.08,41.87 ± 0.04,"18,803 ± 495"
+Climatologie (vârstă),32.77 ± 3.37,36.81 ± 0.09,"23,207 ± 184"
+Regresie liniară (B),16.78 ± 1.10,16.31 ± 0.12,441 ± 17
+Random Forest (A),17.56 ± 2.17,18.08 ± 0.15,760 ± 44
+Random Forest (B),13.13 ± 1.15,13.30 ± 0.14,246 ± 6

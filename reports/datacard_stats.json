@@ -1,0 +1,657 @@
+{
+ "author": "Mutu Mihaela",
+ "source": "CMAPSSData.zip descărcat de pe data.nasa.gov (NASA Ames, Prognostics Center of Excellence)",
+ "seed": 42,
+ "val_frac": 0.2,
+ "subsets": {
+  "FD001": {
+   "train_units": 100,
+   "test_units": 100,
+   "train_rows": 20631,
+   "test_rows": 13096,
+   "missing_values": 0,
+   "flight_conditions": 1,
+   "fault_modes": "HPC",
+   "train_lifetime_cycles": {
+    "min": 128,
+    "median": 199.0,
+    "max": 362
+   },
+   "test_observed_cycles": {
+    "min": 31,
+    "median": 133.5,
+    "max": 303
+   },
+   "test_true_rul_last_cycle": {
+    "min": 7,
+    "median": 86.0,
+    "max": 145
+   },
+   "settings_range": {
+    "setting_1": [
+     -0.0087,
+     0.0087
+    ],
+    "setting_2": [
+     -0.0006,
+     0.0006
+    ],
+    "setting_3": [
+     100.0,
+     100.0
+    ]
+   },
+   "constant_sensors": [
+    "s1",
+    "s5",
+    "s10",
+    "s16",
+    "s18",
+    "s19"
+   ],
+   "quasi_constant_sensors": [
+    "s6"
+   ],
+   "constant_rule": "pe tot setul de antrenare",
+   "sensors_kept": [
+    "s2",
+    "s3",
+    "s4",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+   ],
+   "split": {
+    "train_engines": 80,
+    "val_engines": 20,
+    "train_rows": 16390,
+    "val_rows": 4241
+   },
+   "sensor_range_train": {
+    "s1": [
+     518.67,
+     518.67
+    ],
+    "s2": [
+     641.21,
+     644.53
+    ],
+    "s3": [
+     1571.04,
+     1616.91
+    ],
+    "s4": [
+     1382.25,
+     1441.49
+    ],
+    "s5": [
+     14.62,
+     14.62
+    ],
+    "s6": [
+     21.6,
+     21.61
+    ],
+    "s7": [
+     549.85,
+     556.06
+    ],
+    "s8": [
+     2387.9,
+     2388.56
+    ],
+    "s9": [
+     9021.73,
+     9244.59
+    ],
+    "s10": [
+     1.3,
+     1.3
+    ],
+    "s11": [
+     46.85,
+     48.53
+    ],
+    "s12": [
+     518.69,
+     523.38
+    ],
+    "s13": [
+     2387.88,
+     2388.56
+    ],
+    "s14": [
+     8099.94,
+     8293.72
+    ],
+    "s15": [
+     8.3249,
+     8.5848
+    ],
+    "s16": [
+     0.03,
+     0.03
+    ],
+    "s17": [
+     388.0,
+     400.0
+    ],
+    "s18": [
+     2388.0,
+     2388.0
+    ],
+    "s19": [
+     100.0,
+     100.0
+    ],
+    "s20": [
+     38.14,
+     39.43
+    ],
+    "s21": [
+     22.8942,
+     23.6184
+    ]
+   },
+   "readme_train_test": [
+    100,
+    100
+   ]
+  },
+  "FD002": {
+   "train_units": 260,
+   "test_units": 259,
+   "train_rows": 53759,
+   "test_rows": 33991,
+   "missing_values": 0,
+   "flight_conditions": 6,
+   "fault_modes": "HPC",
+   "train_lifetime_cycles": {
+    "min": 128,
+    "median": 199.0,
+    "max": 378
+   },
+   "test_observed_cycles": {
+    "min": 21,
+    "median": 132.0,
+    "max": 367
+   },
+   "test_true_rul_last_cycle": {
+    "min": 6,
+    "median": 80.0,
+    "max": 194
+   },
+   "settings_range": {
+    "setting_1": [
+     0.0,
+     42.008
+    ],
+    "setting_2": [
+     0.0,
+     0.842
+    ],
+    "setting_3": [
+     60.0,
+     100.0
+    ]
+   },
+   "constant_sensors": [
+    "s1",
+    "s5",
+    "s18",
+    "s19"
+   ],
+   "quasi_constant_sensors": [
+    "s10",
+    "s16"
+   ],
+   "constant_rule": "în fiecare regim de zbor",
+   "sensors_kept": [
+    "s2",
+    "s3",
+    "s4",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+   ],
+   "split": {
+    "train_engines": 208,
+    "val_engines": 52,
+    "train_rows": 43206,
+    "val_rows": 10553
+   },
+   "sensor_range_train": {
+    "s1": [
+     445.0,
+     518.67
+    ],
+    "s2": [
+     535.53,
+     644.52
+    ],
+    "s3": [
+     1243.73,
+     1612.88
+    ],
+    "s4": [
+     1023.77,
+     1439.23
+    ],
+    "s5": [
+     3.91,
+     14.62
+    ],
+    "s6": [
+     5.71,
+     21.61
+    ],
+    "s7": [
+     136.8,
+     555.82
+    ],
+    "s8": [
+     1914.77,
+     2388.39
+    ],
+    "s9": [
+     7985.56,
+     9215.66
+    ],
+    "s10": [
+     0.93,
+     1.3
+    ],
+    "s11": [
+     36.23,
+     48.51
+    ],
+    "s12": [
+     129.12,
+     523.37
+    ],
+    "s13": [
+     2027.61,
+     2390.48
+    ],
+    "s14": [
+     7848.36,
+     8268.5
+    ],
+    "s15": [
+     8.3357,
+     11.0669
+    ],
+    "s16": [
+     0.02,
+     0.03
+    ],
+    "s17": [
+     303.0,
+     399.0
+    ],
+    "s18": [
+     1915.0,
+     2388.0
+    ],
+    "s19": [
+     84.93,
+     100.0
+    ],
+    "s20": [
+     10.18,
+     39.34
+    ],
+    "s21": [
+     6.0105,
+     23.5901
+    ]
+   },
+   "readme_train_test": [
+    260,
+    259
+   ]
+  },
+  "FD003": {
+   "train_units": 100,
+   "test_units": 100,
+   "train_rows": 24720,
+   "test_rows": 16596,
+   "missing_values": 0,
+   "flight_conditions": 1,
+   "fault_modes": "HPC + ventilator",
+   "train_lifetime_cycles": {
+    "min": 145,
+    "median": 220.5,
+    "max": 525
+   },
+   "test_observed_cycles": {
+    "min": 38,
+    "median": 148.0,
+    "max": 475
+   },
+   "test_true_rul_last_cycle": {
+    "min": 6,
+    "median": 77.5,
+    "max": 145
+   },
+   "settings_range": {
+    "setting_1": [
+     -0.0086,
+     0.0086
+    ],
+    "setting_2": [
+     -0.0006,
+     0.0007
+    ],
+    "setting_3": [
+     100.0,
+     100.0
+    ]
+   },
+   "constant_sensors": [
+    "s1",
+    "s5",
+    "s16",
+    "s18",
+    "s19"
+   ],
+   "quasi_constant_sensors": [],
+   "constant_rule": "pe tot setul de antrenare",
+   "sensors_kept": [
+    "s2",
+    "s3",
+    "s4",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+   ],
+   "split": {
+    "train_engines": 80,
+    "val_engines": 20,
+    "train_rows": 19827,
+    "val_rows": 4893
+   },
+   "sensor_range_train": {
+    "s1": [
+     518.67,
+     518.67
+    ],
+    "s2": [
+     640.84,
+     645.11
+    ],
+    "s3": [
+     1564.3,
+     1615.39
+    ],
+    "s4": [
+     1377.06,
+     1441.16
+    ],
+    "s5": [
+     14.62,
+     14.62
+    ],
+    "s6": [
+     21.45,
+     21.61
+    ],
+    "s7": [
+     549.61,
+     570.49
+    ],
+    "s8": [
+     2386.9,
+     2388.6
+    ],
+    "s9": [
+     9017.98,
+     9234.35
+    ],
+    "s10": [
+     1.29,
+     1.32
+    ],
+    "s11": [
+     46.69,
+     48.44
+    ],
+    "s12": [
+     517.77,
+     537.4
+    ],
+    "s13": [
+     2386.93,
+     2388.61
+    ],
+    "s14": [
+     8099.68,
+     8290.55
+    ],
+    "s15": [
+     8.1563,
+     8.5705
+    ],
+    "s16": [
+     0.03,
+     0.03
+    ],
+    "s17": [
+     388.0,
+     399.0
+    ],
+    "s18": [
+     2388.0,
+     2388.0
+    ],
+    "s19": [
+     100.0,
+     100.0
+    ],
+    "s20": [
+     38.17,
+     39.85
+    ],
+    "s21": [
+     22.8726,
+     23.9505
+    ]
+   },
+   "readme_train_test": [
+    100,
+    100
+   ]
+  },
+  "FD004": {
+   "train_units": 249,
+   "test_units": 248,
+   "train_rows": 61249,
+   "test_rows": 41214,
+   "missing_values": 0,
+   "flight_conditions": 6,
+   "fault_modes": "HPC + ventilator",
+   "train_lifetime_cycles": {
+    "min": 128,
+    "median": 234.0,
+    "max": 543
+   },
+   "test_observed_cycles": {
+    "min": 19,
+    "median": 153.5,
+    "max": 486
+   },
+   "test_true_rul_last_cycle": {
+    "min": 6,
+    "median": 88.0,
+    "max": 195
+   },
+   "settings_range": {
+    "setting_1": [
+     0.0,
+     42.008
+    ],
+    "setting_2": [
+     0.0,
+     0.842
+    ],
+    "setting_3": [
+     60.0,
+     100.0
+    ]
+   },
+   "constant_sensors": [
+    "s1",
+    "s5",
+    "s18",
+    "s19"
+   ],
+   "quasi_constant_sensors": [
+    "s16"
+   ],
+   "constant_rule": "în fiecare regim de zbor",
+   "sensors_kept": [
+    "s2",
+    "s3",
+    "s4",
+    "s6",
+    "s7",
+    "s8",
+    "s9",
+    "s10",
+    "s11",
+    "s12",
+    "s13",
+    "s14",
+    "s15",
+    "s17",
+    "s20",
+    "s21"
+   ],
+   "split": {
+    "train_engines": 199,
+    "val_engines": 50,
+    "train_rows": 49147,
+    "val_rows": 12102
+   },
+   "sensor_range_train": {
+    "s1": [
+     445.0,
+     518.67
+    ],
+    "s2": [
+     535.48,
+     644.42
+    ],
+    "s3": [
+     1242.67,
+     1613.0
+    ],
+    "s4": [
+     1024.42,
+     1440.77
+    ],
+    "s5": [
+     3.91,
+     14.62
+    ],
+    "s6": [
+     5.67,
+     21.61
+    ],
+    "s7": [
+     136.17,
+     570.81
+    ],
+    "s8": [
+     1914.72,
+     2388.64
+    ],
+    "s9": [
+     7984.51,
+     9196.81
+    ],
+    "s10": [
+     0.93,
+     1.32
+    ],
+    "s11": [
+     36.04,
+     48.36
+    ],
+    "s12": [
+     128.31,
+     537.49
+    ],
+    "s13": [
+     2027.57,
+     2390.49
+    ],
+    "s14": [
+     7845.78,
+     8261.65
+    ],
+    "s15": [
+     8.1757,
+     11.0663
+    ],
+    "s16": [
+     0.02,
+     0.03
+    ],
+    "s17": [
+     302.0,
+     399.0
+    ],
+    "s18": [
+     1915.0,
+     2388.0
+    ],
+    "s19": [
+     84.93,
+     100.0
+    ],
+    "s20": [
+     10.16,
+     39.89
+    ],
+    "s21": [
+     6.0843,
+     23.8852
+    ]
+   },
+   "readme_train_test": [
+    248,
+    249
+   ]
+  }
+ },
+ "checks_passed": 64,
+ "checks_total": 64
+}
